@@ -1,1 +1,11 @@
-Req goes here
+## requirements.txt
+#
+# This file contains dependencies required for the project:
+
+pandas==2.2.1
+numpy==1.26.4
+scikit-learn==1.4.2
+streamlit==1.34.0
+matplotlib==3.8.4
+seaborn==0.13.2
+
