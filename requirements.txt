@@ -1,6 +1,6 @@
-## requirements.txt
+# requirements.txt
+# This file contains dependencies required for the project
 #
-# This file contains dependencies required for the project:
 
 pandas==2.2.1
 numpy==1.26.4
