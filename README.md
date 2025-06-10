@@ -5,6 +5,17 @@ This project provides an end-to-end anomaly detection framework for Managed File
 ---
 
 ## 📂 Project Structure
+MFT_Shield/
+│
+├── Data/
+│── SuppData/   
+│
+├── Code/
+│   
+├── requirements.txt
+├── README.md
+└── LICENSE
+
 
 ```bash
 ├── mft_logs_sample.csv              # Sample MFT logs
@@ -21,8 +32,8 @@ This project provides an end-to-end anomaly detection framework for Managed File
 Real Time Anomaly Detection and Alert Dashboard for Enterprise Managed File Transfer Systems
 
 1. Getting Started
-git clone [https://github.com/asoni523/mft-anomaly-detection.git](https://github.com/asoni523/MFT_Shield)
-cd mft-anomaly-detection
+git clone https://github.com/asoni523/MFT_Shield.git
+cd MFT_Shield
 
 2. Set up environment
 pip install -r requirements.txt
@@ -37,10 +48,14 @@ streamlit run dashboard_app.py
 python inject_anomalies_and_evaluate.py
 
 6. Citation and License
-If you use this repository, data, or model in your work, please cite:
-Anil Kumar Soni, "MFT Shield: A Framework for Anomaly Detection in Managed File Transfers Using Machine Learning with Network, Server, and File Transfer Logs", GitHub, 2025.
-[https://github.com/asoni523/mft-anomaly-detection](https://github.com/asoni523/MFT_Shield)
-For academic citation, please reach out for full citation format or inclusion in upcoming publications.
+If you use this repository, dataset, or model in your work, please cite it as:
+     Anil Kumar Soni,
+    "MFT Shield: A Framework for Anomaly Detection in Managed File Transfers Using Machine Learning with Network, Server, and File     Transfer Logs", GitHub Repository, 2025.
+     Available at: https://github.com/asoni523/MFT_Shield
+
+For formal academic citations or inclusion in research papers, please reach out for the full reference format or citation from the upcoming peer-reviewed publication.
+
+This project is released under the MIT License. See LICENSE for more details.
 
 7. Disclaimer
 This is a research-focused prototype and is not a production-grade security solution. Use and adapt at your own risk.
@@ -64,5 +79,11 @@ seaborn==0.13.2
 
 To generate it automatically from your current Python environment:
 pip freeze > requirements.txt
+
+## Authors
+
+- **Anil Soni** – Creator, Developer, and Maintainer  
+- **Sudhir Sinha** – Co-author of research and conceptual contributor  
+
 
 
